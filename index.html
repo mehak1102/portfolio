@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f68e62b7c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/mehak-Logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark iconss" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars iconss" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Mehak Chandna</span></h1>
+            </div>
+        </div>
+    </div>
+<!-- --------------------------------------------------about-------------------------------------------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutpic.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me!</h1><br>
+                    <p1>Hi, I'm a passionate web developer with passion for problem-solving and learning new things has led me to become proficient in various technologies, including HTML, CSS, Javascript, Node.js, Express.js, MongoDB, and Bootstrap.Recently, I completed a comprehensive web development course at Coding Blocks, enhancing my skills in building scalable and efficient web applications. Additionally, I am a team player who enjoys collaborating with cross-functional teams to create exceptional web applications.</p1>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>FRONTEND</span><br>Including HTML, CSS, Javascript, Frameworks</li>
+                            <li><span>BACKEND</span><br>Knowledge of APIs, Databases, Server-side Rendering, Security</li>
+                            <li><span>DevOps</span><br>Development, deployment of web applications</li>
+                            <li><span>DSA</span><br>Designing, Developing and optimizing Algorithms</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BACHELOR OF SCIENCE - COMPUTER SCIENCE</span><br>Institute of Information Technology and Management<br>CGPA- 8.20</li>
+                            <li><span>Web Development</span><br>Coding Blocks</li>
+                            <li><span>SENIOR SECONDARY EDUCATION</span><br>Mahashay Chunni Lal Saraswati Bal Mandir<br>CGPA - 7.36</li>
+                            <li><span>SECONDARY EDUCATION</span><br>Mahashay Chunni Lal Saraswati Bal Mandir<br>CGPA - 7.89</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------------Services------------------------------------------------------------ -->
+
+<div id="services">
+    <div class="container">
+      <h1> <div class="sub-title">My Services</div></h1>
+      <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>FRONTEND</h2>
+            <p>Design and develop custom websites that are tailored to your business needs, using the latest frontend technologies such as HTML, CSS, JavaScript and Frameworks</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>BACKEND</h2>
+            <p>I'm proficient in a range of backend technologies and tools, including Programming Languages, Frameworks: Express.js, Databases, API Management, Security and Performance</p>
+    
+        </div>
+        <div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h2>MERN</h2>
+            <p>A full-stack framework for building web applications with MongoDB, Express.js, React and Node.js.</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- -------------------------------------------portfolio------------------------------------------------------------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects!</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/shopping.jpg" alt="">
+                <div class="layer">
+                    <h3>Shopping-App-Shopify</h3>
+                    <p>Shop smarter with an app offering curated deals, features, and offers many functionalities.</p>
+                    <a href="https://shopify-820o.onrender.com"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/snake.jpg" alt="">
+                <div class="layer">
+                    <h3>Snake Game</h3>
+                    <p>Eat, grow, avoid crash. Retro fun, simple play.</p>
+                    <a href="https://snake-game-smoky-six.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/rps.jpg" alt="">
+                <div class="layer">
+                    <h3>Rock, Paper, Scissors Game</h3>
+                    <p>A classic game of chance and strategy.</p>
+                    <a href="http://mehak1102-rock-paper-scissors-game.vercel.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+             <div class="work">
+                <img src="images/calculator.jpg" alt="">
+                <div class="layer">
+                    <h3>Apple Calculator</h3>
+                    <p>It is a powerful and easy-to-use tool that helps you perform calculations with ease</p>
+                    <a href="https://apple-calculator-alpha.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/diary.jpg" alt="">
+                <div class="layer">
+                    <h3>Note-Making-App</h3>
+                    <p>Simplify your thoughts, amplify your productivity.</p>
+                    <a href="https://note-making-app-mocha-theta.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/camera.jpg" alt="">
+                <div class="layer">
+                    <h3>Photography's Blog</h3>
+                    <p>Experience the world through my lens, with stories and photos</p>
+                    <a href="https://photography-s-blog.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/amazon.jpg" alt="">
+                <div class="layer">
+                    <h3>Shopping-App-Amazon</h3>
+                    <p>Amazon- Your online shopping mall, where convenience meets savings.</p>
+                    <a href="https://amazon-clone-6tuz.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------------------------------------contact--------------------------------- -->
+
+ <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>chandnamehak1102@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+91-8851412992</p>
+            <div class="social-icons">
+                <a href="https://github.com/mehak1102"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mehakchandna/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/mehakchandna02"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="images/MEHAK Resume.pdf" download class="btn btn2">Download CV!</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+        
+      </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @Mehak. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+ </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0"
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+
+    
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw2xrKDry1SBp28IohHax1LRv2Xl4AnWFP_7TcBd09i2nb1N32BGPnV4wwjyES4EqLb-Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully! :)"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
