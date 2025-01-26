@@ -19,7 +19,6 @@ body{
     background-image: url(images/bgmehak.jpg);
     background-size: cover;
     background-position: center;
-    
 }
 .container{
     padding: 10px 10%;
@@ -257,7 +256,9 @@ nav ul li a:hover::after{
     background: #ff004f;
 }
 /* -----------------------------contact--------------------------------------- */
-
+#contact {
+    margin-top: 4rem;
+}
 .contact-left {
     flex-basis: 35%;
 }
